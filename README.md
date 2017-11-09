@@ -19,5 +19,7 @@ https://doodle.com/poll/46mprp23gd7u84pe
 
 Exam 3:
 The doodle poll for when you want to start your 24 hour exam has been posted:
+
 https://doodle.com/poll/hfbn4nq4xfte5ut3
+
 I will "lock in" your preferences as of 7:00 am on Thursday, Nov. 16.
