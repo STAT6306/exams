@@ -1,6 +1,3 @@
-keep = getwd()
-setwd(keep)
-setwd('/Users/darrenho/Box Sync/teaching/STAT6306/code')
 #Go to the website: https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time
 # Set "Filter Year" to 2014
 # Set "Filter Period" to January
