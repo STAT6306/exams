@@ -27,7 +27,7 @@
 
 library(plyr)
 
- paths=dir("database",pattern="_2014.csv",full.names=TRUE)
+ paths=dir("database",pattern="_2014.csv.gz",full.names=TRUE)
  names(paths)=basename(paths)
 # This next step took me approx. 177 seconds
  srt  = proc.time()[3]
@@ -37,5 +37,5 @@ library(plyr)
  end  = proc.time()[3]
  cat('total time: ',end-srt)
  #From this point on, you can just load the R object to get all the flights.
-load(file="2014flights.Rdata")
+load(file="../2014flights.Rdata")
 format(object.size(df),units='MiB')#get the size in memory
