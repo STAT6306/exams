@@ -18,16 +18,21 @@ if(operatingSystem == 'mac'){
   nCores = detectCores(all.tests = FALSE, logical = TRUE) - 1
   registerDoMC(nCores)
 }
+
 if(operatingSystem == 'windows'){
-  if(!require(doSMP)){
-    install.packages('doSMP')
-  }else{
-    require(doSMP)
+  if(!require(foreach)){
+    install.packages("foreach")
+    library(foreach)
   }
-  nCores = detectCores(all.tests = FALSE, logical = TRUE) - 1
-  registerDoSMP(startWorkers(nCores))
+  if(!require(doParallel)){
+    install.packages("doParallel")
+    library(doParallel)
+  }
+  nCores  = detectCores(all.tests = FALSE, logical = TRUE) - 1
+  workers = makeCluster(nCores)  
+  registerDoParallel(workers) 
 }
-x    = seq_len(150)
+x    = seq_len(10)
 wait = function(i) Sys.sleep(0.1)
 system.time(llply(x, wait))
 system.time(llply(x, wait, .parallel = TRUE))
