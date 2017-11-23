@@ -23,3 +23,9 @@ The doodle poll for when you want to start your 24 hour exam has been posted:
 https://doodle.com/poll/hfbn4nq4xfte5ut3
 
 I will "lock in" your preferences as of 7:00 am on Thursday, Nov. 16.
+
+Final Exam (Dec. 8th at 8 am in the usual classroom):
+The final exam will have a format similar to the first exam.  I posted a list 
+of study topics.  The usual disclaimers apply, however, as to membership
+in the list not being necessary nor sufficient for inclusion in the final
+exam.  I did attempt to be comprehensive.
