@@ -7,14 +7,13 @@ For exam 1:
 of the type of questions that may be asked.
 
 
-Exams 2 and 3 will closely mimic a common interview technique for data science jobs in which a challenge is issued and you have a short period of time to produce a solution. First, this will help you prepare for interviews.  Second, it will free up class periods for more content (yay!).
+For exams 2:
+A common interview technique for data science jobs is a challenge is issued and you have a short period of time to produce a solution. This exam will help you prepare for interviews.
 
-The format for Exams 2 and 3 will be ``take home'':
+The exam will be take home.  At 3:30 pm on Thursday, March 22, an exam will be posted on Canvas.  You will have 24 hours from that moment to produce the requested solution using whatever resources you wish EXCEPT FOR any other students at SMU or any faculty but me.  As well, do not look at an exam released to a fellow student.  The use of any materials without proper attribution (except for our book or the notes) will be considered plagarism.
 
-* You will sign up for a date/time you want the exam released to you.  
-* You will have 24 hours from that moment to produce the requested solution using whatever resources you wish EXCEPT FOR any other students at SMU or any faculty but me.  As well, do not look at an exam released to a fellow student.  Wait until your exam gets released to you.  
-* The exam window for Exam 2 and 3 will be announced later.
-
+For exam 3:
+This will be the same format as exam 2.  The date will be in the interval April 19 to April 22.
 
 Final Exam (May 10th at 3 pm in the usual classroom):
 The final exam will have a format similar to the first exam. 
