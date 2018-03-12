@@ -19,7 +19,7 @@ data looked at in that code is NOT the same data as for the exam).
 * How many total flights are there in the data set?* How many flights were there for each day of the week?* Which month has the greatest proportion of late flights? Formally test 
   the question: is there any difference in the true proportion of late flights across months?* Which day is best for minimizing average departure delays? 
 * Which departure and arrival airport combination is associated with the worst median delay?Main submission:Train a predictive model for how much a flight will be delayed.  What are the 3 most important features you’ve found and by what criteria? What is the cross-validation estimate of the risk for your procedure? What is the training error estimate of the risk?Note that this doesn’t have to be “complicated” in the sense that a well done basic approach is preferable to a 
-partially completed complicated approach.  
+partially completed complicated approach. 
 
 
 You should return to me the following two, separate items:
@@ -38,7 +38,7 @@ You should return to me the following two, separate items:
 General rules for both submissions:
 * Don’t worry about making your submission look like an “essay”.  Use whatever format you feel is appropriate,
   just make it easily readable
-* Either (use Rmarkdown) or (use a different document preparation system (exporting to pdf) 
+* Either (use Rmarkdown, which must be knit to be a valid submission, do not submit a raw .rmd file) or (use a different document preparation system, exporting to pdf,
   and include the code you use as an appendix)
   (in either case, don’t include your entire code. Only include the code necessary for answering the questions. Note this means 
    there will probably be a substantial difference between the code you write during the exam and the code
