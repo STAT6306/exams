@@ -1,0 +1,52 @@
+-----------------------------------------------------------------
+|         Take home exam 2: Analyzing Airline Flight Delays     | 
+-----------------------------------------------------------------
+
+For this exam, you can use whatever software you prefer.  However, this exam has been written
+to be addressed with the split-apply-combine philosophy in general and dplyr in particular (Pandas
+is the standard analogue in Python, though Pandas has been written to mimic R’s framework).
+
+Using the data set generated from getFlightData.R, answer the following.
+
+Warm-up questions:
+* How many total flights are there in the data set?* How many flights were there for each day of the week?* Which month has the greatest proportion of late flights? Formally test 
+  the question: is there any difference in the true proportion of late flights across months?* Which day is best for minimizing average departure delays? 
+* Which departure and arrival airport combination is associated with the worst median delay?Main submission:Train a predictive model for how much a flight will be delayed (there are multiple versions of delay available in the database.  Decide which one makes the most sense and use it.  However, do not attempt to use one version of delay to predict another.  Example: don’t use departure delay as a feature if you use arrival delay as the supervisor).  What are the 3 most important features you’ve found and by what criteria? What is the cross-validation estimate of the risk for your procedure? What is the training error estimate of the risk?Note that this doesn’t have to be “complicated” in the sense that a well done basic approach is preferable to a 
+partially completed complicated approach.
+
+You should return to me the following two, separate items:
+    - A write-up entitled firstnameLastname_warmup.pdf that contains your answers to the warm-up questions.     
+      Just state the questions and your answers in a very brief yet readable format.
+
+
+    - A write-up entitled firstnameLastname_main.pdf that describes your predictive model. 
+      Some things that need to be obviously and explicitly included:
+          * 3 most important features you found and how you judged importance
+          * training error of your procedure
+          * cross-validation error of your procedure
+          * A description of your chosen procedure, including why you chose it.
+      
+
+General rules for both submissions:
+* Don’t worry about making your submission look like an “essay”.  Use whatever format you feel is appropriate,
+  just make it easily readable
+* Do one of the following for document preparation: (use Rmarkdown, which must be knit to be a valid submission, do not submit a raw .rmd file) or (use a different document preparation system, exporting to pdf,
+  and include the code you use for your analysis as an appendix)
+  (in either case, don’t include your entire code. Only include the code necessary for answering the questions. Note this means 
+   there will probably be a substantial difference between the code you write during the exam and the code
+   that you end up submitting.  To this end, I recommend simultaneously developing two scripts, one that includes
+   all of your explorations and the other containing only the “final version”).  
+*  Do not include any superfluous output or discussions.  Only include output and code that directly addresses 
+   the stated goal(s) for the submission.  Too much output will be penalized.
+
+Evaluation: Your grade on this exam will be based on the following:
+
+- Warm-up [50 points]. 
+- Main    [50 points]. 
+
+Do not communicate with anyone else on this exam except for me (the professor).  There will be no exceptions to this and I will treat any suspicions of cheating very seriously.
+
+If you include any code written by anyone but you (other than from the book, lecture notes, homeworks, or
+packages) either exactly or substantially similar, be sure to provide proper attribution, including a 
+URL, text, author, etc. or other available information. It is fine to do so, but make sure (for your sake)
+you have a very clear understanding of what the code is doing and that you cite your source.  
