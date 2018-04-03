@@ -15,12 +15,12 @@ props = df %>% filter(CANCELLED == 0) %>%
 prop.test(x=props$success,n=props$total)
 props$prop
 
-tmp = 
-
 DAY_OF_YEAR = df %>% mutate('DAY_OF_YEAR' = mapply(function(x,y){return(paste(c(x,y),collapse='_'))},
                                            as.character(df$MONTH),as.character(df$DAY_OF_MONTH))) %>% 
        group_by(DAY_OF_YEAR) %>% summarise(avgDepDelay = mean(DEP_DELAY,na.rm=TRUE)) %>%
        arrange(desc(avgDepDelay))
+
+DAY_OF_YEAR[1:10,]
 
 df %>% group_by(ORIGIN,DEST) %>% 
        summarize(medianDelay = median(DEP_DELAY,na.rm=TRUE)) %>%
