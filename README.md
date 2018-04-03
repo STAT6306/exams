@@ -13,6 +13,7 @@ A common interview technique for data science jobs is a challenge is issued and 
 The exam will be take home.  At 3:30 pm on Thursday, March 22, an exam will be posted to Canvas (class will be cancelled that day so that you can get a good start on the exam).  You will have 48 hours from that moment to produce the requested solution using whatever resources you wish EXCEPT FOR any other students at SMU or any faculty but me.  As well, do not look at an exam released to a fellow student.  The use of any materials without proper attribution (except for our book or the notes) will be considered plagarism.  No late exams will be accepted.
 
 For exam 3:
+
 This exam will be the same essential format as exam 2.  However the time limit will be 24 hours.  To make up for this shorter time window, each person will be able to schedule their exam start time the interval [April 19, April 22]
 
 Final Exam (May 10th at 3 pm in the usual classroom):
